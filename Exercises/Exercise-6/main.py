@@ -5,7 +5,13 @@ from pyspark.sql.functions import col, to_date, avg, count, desc, expr, row_numb
 from pyspark.sql.window import Window
 from datetime import datetime, timedelta
 
+import os
 
+DATA_DIR = "data"
+
+if not os.path.exists(DATA_DIR):
+    print(f"❌ Folder '{DATA_DIR}' not found in: {os.getcwd()}")
+    exit(1)
 DATA_DIR = "data"
 REPORTS_DIR = "reports"
 
