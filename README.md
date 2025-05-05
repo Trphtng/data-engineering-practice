@@ -3,6 +3,7 @@
 ## Thong tin
 
 1. Nguyen Truong Phat
+2. Le Tran Quang Nhan
 
 ## Data Engineering Practice Problems
 
