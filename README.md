@@ -1,3 +1,9 @@
+# Bai tap Ky Thuat Du Lieu
+
+## Thong tin
+
+1. Nguyen Truong Phat
+
 ## Data Engineering Practice Problems
 
 One of the main obstacles of Data Engineering is the large
