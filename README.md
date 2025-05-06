@@ -35,7 +35,7 @@
 - Data cleansing / dirty data.
 
 
-#### Exercise 1 - Downloading files.
+# Exercise 1 - Downloading files.
 ## 1. Mục tiêu bài tập:
 
 Bài tập nhằm giúp sinh viên luyện tập kỹ năng lập trình Python thông qua một tình huống thực tế: tải xuống và xử lý dữ liệu từ các nguồn trên Internet.
@@ -58,7 +58,7 @@ Khi chạy chương trình, thư mục downloads sẽ được tạo (nếu chư
 
 
 
-#### Exercise 2 - Web Scraping + Downloading + Pandas
+# Exercise 2 - Web Scraping + Downloading + Pandas
 ## 1. Mục tiêu bài tập:
 
 Xây dựng một chương trình Python thu thập dữ liệu web, xây dựng uri, tải xuống tệp và sử dụng Pandas để thực hiện một số hành động tích lũy đơn giản. 
