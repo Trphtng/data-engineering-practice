@@ -34,20 +34,6 @@
 - PySpark
 - Data cleansing / dirty data.
 
-### How to work on the problems.
-You will need two things to work effectively on most all
-of these problems. 
-- `Docker`
-- `docker-compose`
-
-All the tools and technologies you need will be packaged
-  into the `dockerfile` for each exercise.
-
-For each exercise you will need to `cd` into that folder and
-run the `docker build` command, that command will be listed in
-the `README` for each exercise, follow those instructions.
-
-### Beginner Exercises
 
 #### Exercise 1 - Downloading files.
 The [first exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-1) tests your ability to download a number of files
