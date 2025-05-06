@@ -175,35 +175,29 @@ Xây dựng một chương trình Python thu thập dữ liệu web, xây dựng
 ![Screenshot 2025-05-05 160300](https://github.com/user-attachments/assets/00a57f80-6f8e-4913-8ebc-c21ed5e1a27b)
 
 
-#### Exercise 7 - Using Various PySpark Functions
-The [seventh exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-7) 
-Taking a page out of the previous exercise, this one is focus on using a few of the
-more common build in PySpark functions `pyspark.sql.functions` and applying their
-usage to real-life problems.
+### Exercise 7 - Using Various PySpark Functions
+#### 1. Mục tiêu bài tập:
 
-Many times to solve simple problems we have to find and use multiple functions available
-from libraries. This will test your ability to do that.
+Sử dụng các hàm có sẵn trong pyspark.sql.functions (không sử dụng UDF hoặc hàm Python thuần) để thực hiện các thao tác phân tích dữ liệu về lỗi ổ cứng, bao gồm:
+- Thêm thông tin nguồn file và ngày file.
+- Tách nhãn hiệu từ model.
+- Xếp hạng dung lượng lưu trữ theo model.
+- Tạo khóa chính cho từng dòng dữ liệu.
+
+#### 2. Phân tích yêu cầu:
+- Bước 1: Chuẩn bị môi trường và cấu trúc dự án
+- Bước 2: Cấu hình Docker
+- Bước 3: Viết code trong main.py
+- Bước 4 (Tuỳ chọn): Viết Unit Test với PyTest
+- Bước 5: Build Docker Image
+- Bước 6: Chạy chương trình chính
+- Bước 7 (Tùy chọn): Chạy Unit Test
+
+#### 3. Kết luận:
+- In ra DataFrame với các cột mới: source_file, file_date, brand, storage_ranking, primary_key.
+- Mọi xử lý không dùng UDF.
+- Docker chạy ổn định, không lỗi build/run.
+
 
 ![Screenshot 2025-05-05 163404](https://github.com/user-attachments/assets/510bb4bc-cde4-4429-bf30-2b47242b09ac)
 
-
-#### Exercise 8 - Using DuckDB for Analytics and Transforms.
-The [eighth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-8) 
-Using new tools is imperative to growing as a Data Engineer. DuckDB is one of those new tools. In this
-exercise you will have to complete a number of analytical and transformation tasks using DuckDB. This
-will require an understanding of the functions and documenation of DuckDB.
-
-#### Exercise 9 - Using Polars lazy computation.
-The [ninth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-9) 
-Polars is a new Rust based tool with a wonderful Python package that has taken Data Engineering by
-storm. It's better than Pandas because it has both SQL Context and supports Lazy evalutation 
-for larger than memory data sets! Show your Lazy skills!
-
-
-### Advanced Exercises
-
-#### Exercise 10 - Data Quality with Great Expectations
-The [tenth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-10) 
-This exercise is to help you learn Data Quality, specifically a tool called Great Expectations. You will
-be given an existing datasets in CSV format, as well as an existing pipeline. There is a data quality issue 
-and you will be asked to implement some Data Quality checks to catch some of these issues.
