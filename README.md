@@ -37,9 +37,11 @@
 
 #### Exercise 1 - Downloading files.
 1. Mục tiêu bài tập:
+
 Bài tập nhằm giúp sinh viên luyện tập kỹ năng lập trình Python thông qua một tình huống thực tế: tải xuống và xử lý dữ liệu từ các nguồn trên Internet.
 
-2. Phân tích yêu cầu
+2. Phân tích yêu cầu:
+    
 Bài toán cung cấp một danh sách các URL trỏ tới các tệp .zip. Nhiệm vụ của sinh viên là:
 
 - Tạo thư mục downloads nếu chưa tồn tại.
@@ -48,7 +50,8 @@ Bài toán cung cấp một danh sách các URL trỏ tới các tệp .zip. Nhi
 - Xoá các tệp .zip sau khi giải nén thành công.
 - Xử lý lỗi khi tải hoặc giải nén gặp sự cố.
 
-3. Kết quả thực hiện
+3. Kết quả thực hiện:
+
 Khi chạy chương trình, thư mục downloads sẽ được tạo (nếu chưa có), sau đó các tệp .zip được tải về lần lượt. Nếu file tải thành công, nó sẽ được giải nén và xóa khỏi ổ đĩa, chỉ giữ lại tệp .csv. Các bước thực hiện được in ra màn hình để người dùng dễ theo dõi.
 
 ![z6570760647429_3f486af5dd911d108266d43edef81d0d](https://github.com/user-attachments/assets/06f1bca7-909e-4877-b361-99caf7972187)
