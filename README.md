@@ -199,5 +199,6 @@ Sử dụng các hàm có sẵn trong pyspark.sql.functions (không sử dụng 
 - Docker chạy ổn định, không lỗi build/run.
 
 
-![Screenshot 2025-05-05 163404](https://github.com/user-attachments/assets/510bb4bc-cde4-4429-bf30-2b47242b09ac)
+![image](https://github.com/user-attachments/assets/4552ac65-f190-431c-84fe-7cdaade2c626)
+
 
