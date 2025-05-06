@@ -42,7 +42,9 @@ the `README` for each exercise, follow those instructions.
 The [first exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-1) tests your ability to download a number of files
 from an `HTTP` source and unzip them, storing them locally with `Python`.
 `cd Exercises/Exercise-1` and see `README` in that location for instructions.
-![alt text](z6570760647429_3f486af5dd911d108266d43edef81d0d.jpg)
+
+![z6570760647429_3f486af5dd911d108266d43edef81d0d](https://github.com/user-attachments/assets/06f1bca7-909e-4877-b361-99caf7972187)
+
 
 
 #### Exercise 2 - Web Scraping + Downloading + Pandas
@@ -51,7 +53,8 @@ tests your ability perform web scraping, build uris, download files, and use Pan
 do some simple cumulative actions.
 `cd Exercises/Exercise-2` and see `README` in that location for instructions.
 
-![alt text](<Screenshot 2025-05-05 160241.png>)
+![Screenshot 2025-05-05 160241](https://github.com/user-attachments/assets/3587ecd5-7674-4b60-bf36-26f4cf663656)
+
 
 #### Exercise 3 - Boto3 AWS + s3 + Python.
 The [third exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-3) tests a few skills.
@@ -59,7 +62,8 @@ This time we  will be using a popular `aws` package called `boto3` to try to per
 actions to download some open source `s3` data files.
 `cd Exercises/Exercise-3` and see `README` in that location for instructions.
 
-![alt text](z6570760492704_1c4cdafaa1432e82d08fa8a9754dfd96.jpg)
+![z6570760492704_1c4cdafaa1432e82d08fa8a9754dfd96](https://github.com/user-attachments/assets/fb71263d-400c-46bd-a085-3e96f72aae7b)
+
 
 #### Exercise 4 - Convert JSON to CSV + Ragged Directories.
 The [fourth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-4) 
@@ -67,7 +71,8 @@ focuses more file types `json` and `csv`, and working with them in `Python`.
 You will have to traverse a ragged directory structure, finding any `json` files
 and converting them to `csv`.
 
-![alt text](<Screenshot 2025-05-05 160229.png>)
+![Screenshot 2025-05-05 160229](https://github.com/user-attachments/assets/4801a5a9-efdb-495e-8974-867e0eaff7cb)
+
 
 #### Exercise 5 - Data Modeling for Postgres + Python.
 The [fifth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-5) 
@@ -75,7 +80,8 @@ is going to be a little different than the rest. In this problem you will be giv
 `csv` files. You must create a data model / schema to hold these data sets, including indexes,
 then create all the tables inside `Postgres` by connecting to the database with `Python`.
 
-![alt text](z6570760884268_d4168892f1e0a18aaf2bcf81eded90c2.jpg)
+![z6570760884268_d4168892f1e0a18aaf2bcf81eded90c2](https://github.com/user-attachments/assets/4177047d-d9f3-4e05-a962-bc7a71d8925f)
+
 
 ### Intermediate Exercises
 
@@ -85,7 +91,8 @@ Is going to step it up a little and move onto more popular tools. In this exerci
 to load some files using `PySpark` and then be asked to do some basic aggregation.
 Best of luck!
 
-![alt text](<Screenshot 2025-05-05 160300.png>)
+![Screenshot 2025-05-05 160300](https://github.com/user-attachments/assets/00a57f80-6f8e-4913-8ebc-c21ed5e1a27b)
+
 
 #### Exercise 7 - Using Various PySpark Functions
 The [seventh exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-7) 
@@ -96,7 +103,8 @@ usage to real-life problems.
 Many times to solve simple problems we have to find and use multiple functions available
 from libraries. This will test your ability to do that.
 
-![alt text](<Screenshot 2025-05-05 163404.png>)
+![Screenshot 2025-05-05 163404](https://github.com/user-attachments/assets/510bb4bc-cde4-4429-bf30-2b47242b09ac)
+
 
 #### Exercise 8 - Using DuckDB for Analytics and Transforms.
 The [eighth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-8) 
