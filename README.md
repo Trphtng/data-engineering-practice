@@ -4,7 +4,7 @@
 2. Lê Trần Quang Nhân 23698431
    
 ## Lab 8
-# Case 1: Xây dựng Pipeline tự động cào và trực quan hóa dữ liệu
+### Case 1: Xây dựng Pipeline tự động cào và trực quan hóa dữ liệu
 - Phương pháp: Sử dụng mô hình ETL (Extract, Transform, Load) để thực hiện và sử dụng AirFlow để tự động hóa pipeline
 - Các bước:
   
@@ -19,13 +19,13 @@
 - Tổng kết:
     Dự án là một mô hình mô phỏng hệ thống ETL hoàn chỉnh trong lĩnh vực thương mại điện tử. Quy trình gồm các công đoạn từ trích xuất dữ liệu từ tệp hoặc cơ sở dữ liệu, xử lý và chuyển đổi dữ liệu, cho đến khâu nạp dữ liệu vào kho dữ liệu (Data Warehouse) sử dụng PostgreSQL hoặc MySQL. Apache Airflow được triển khai để tự động hóa và giám sát toàn bộ quá trình. Ngoài ra, hệ thống hỗ trợ tích hợp các plugin mở rộng, cho phép kết nối linh hoạt với nhiều loại cơ sở dữ liệu phổ biến khác.
 
-# Case 2: Xây dựng Pipeline tự động cào dữ liệu và huấn luyện mô hình 
+### Case 2: Xây dựng Pipeline tự động cào dữ liệu và huấn luyện mô hình 
 - Mục tiêu: Xây dựng và chạy thử được các DAGs cơ bản đến nâng cao.
 - Công cụ: Sử dụng AirFlow để chạy Pipeline với cài đặt thời gian.
 
 
 ## Lab 9
-# Mục tiêu:
+### Mục tiêu:
 
 - Python data processing.
 - csv, flat-file, parquet, json, etc.
@@ -35,12 +35,12 @@
 - Data cleansing / dirty data.
 
 
-# Exercise 1 - Downloading files.
-## 1. Mục tiêu bài tập:
+### Exercise 1 - Downloading files.
+#### 1. Mục tiêu bài tập:
 
 Bài tập nhằm giúp sinh viên luyện tập kỹ năng lập trình Python thông qua một tình huống thực tế: tải xuống và xử lý dữ liệu từ các nguồn trên Internet.
 
-## 2. Phân tích yêu cầu:
+#### 2. Phân tích yêu cầu:
     
 Bài toán cung cấp một danh sách các URL trỏ tới các tệp .zip. Nhiệm vụ của sinh viên là:
 
@@ -50,7 +50,7 @@ Bài toán cung cấp một danh sách các URL trỏ tới các tệp .zip. Nhi
 - Xoá các tệp .zip sau khi giải nén thành công.
 - Xử lý lỗi khi tải hoặc giải nén gặp sự cố.
 
-## 3. Kết quả thực hiện:
+#### 3. Kết quả thực hiện:
 
 Khi chạy chương trình, thư mục downloads sẽ được tạo (nếu chưa có), sau đó các tệp .zip được tải về lần lượt. Nếu file tải thành công, nó sẽ được giải nén và xóa khỏi ổ đĩa, chỉ giữ lại tệp .csv. Các bước thực hiện được in ra màn hình để người dùng dễ theo dõi.
 
@@ -58,18 +58,18 @@ Khi chạy chương trình, thư mục downloads sẽ được tạo (nếu chư
 
 
 
-# Exercise 2 - Web Scraping + Downloading + Pandas
-## 1. Mục tiêu bài tập:
+### Exercise 2 - Web Scraping + Downloading + Pandas
+#### 1. Mục tiêu bài tập:
 
 Xây dựng một chương trình Python thu thập dữ liệu web, xây dựng uri, tải xuống tệp và sử dụng Pandas để thực hiện một số hành động tích lũy đơn giản. 
 
-## 2. Phân tích yêu cầu:
+#### 2. Phân tích yêu cầu:
 - Bước 1: Chuẩn bị môi trường và Docker
 - Bước 2: Viết chương trình Python để quét dữ liệu
 - Bước 3: Phân tích dữ liệu với Pandas
 - Bước 4: Kiểm tra kết quả
 
-## 3. Kết luận:
+#### 3. Kết luận:
 
 - Bài tập giúp củng cố kiến thức về web scraping, xử lý file, phân tích dữ liệu và đặc biệt là triển khai script Python trong môi trường Docker.
 - Trong quá trình thực hiện, đã xử lý các vấn đề như: quyền ghi file, đọc định dạng HTML động, kiểm tra lỗi HTTP và tương thích Docker.
@@ -78,7 +78,7 @@ Xây dựng một chương trình Python thu thập dữ liệu web, xây dựng
 ![Screenshot 2025-05-05 160241](https://github.com/user-attachments/assets/3587ecd5-7674-4b60-bf36-26f4cf663656)
 
 
-#### Exercise 3 - Boto3 AWS + s3 + Python.
+### Exercise 3 - Boto3 AWS + s3 + Python.
 The [third exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-3) tests a few skills.
 This time we  will be using a popular `aws` package called `boto3` to try to perform a multi-step
 actions to download some open source `s3` data files.
