@@ -36,9 +36,20 @@
 
 
 #### Exercise 1 - Downloading files.
-The [first exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-1) tests your ability to download a number of files
-from an `HTTP` source and unzip them, storing them locally with `Python`.
-`cd Exercises/Exercise-1` and see `README` in that location for instructions.
+1. Mục tiêu bài tập:
+Bài tập nhằm giúp sinh viên luyện tập kỹ năng lập trình Python thông qua một tình huống thực tế: tải xuống và xử lý dữ liệu từ các nguồn trên Internet.
+
+2. Phân tích yêu cầu
+Bài toán cung cấp một danh sách các URL trỏ tới các tệp .zip. Nhiệm vụ của sinh viên là:
+
+- Tạo thư mục downloads nếu chưa tồn tại.
+- Tải từng tệp .zip từ danh sách URL.
+- Giải nén các tệp .csv từ .zip.
+- Xoá các tệp .zip sau khi giải nén thành công.
+- Xử lý lỗi khi tải hoặc giải nén gặp sự cố.
+
+3. Kết quả thực hiện
+Khi chạy chương trình, thư mục downloads sẽ được tạo (nếu chưa có), sau đó các tệp .zip được tải về lần lượt. Nếu file tải thành công, nó sẽ được giải nén và xóa khỏi ổ đĩa, chỉ giữ lại tệp .csv. Các bước thực hiện được in ra màn hình để người dùng dễ theo dõi.
 
 ![z6570760647429_3f486af5dd911d108266d43edef81d0d](https://github.com/user-attachments/assets/06f1bca7-909e-4877-b361-99caf7972187)
 
