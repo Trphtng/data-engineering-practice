@@ -79,10 +79,25 @@ Xây dựng một chương trình Python thu thập dữ liệu web, xây dựng
 
 
 ### Exercise 3 - Boto3 AWS + s3 + Python.
-The [third exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-3) tests a few skills.
-This time we  will be using a popular `aws` package called `boto3` to try to perform a multi-step
-actions to download some open source `s3` data files.
-`cd Exercises/Exercise-3` and see `README` in that location for instructions.
+#### 1. Mục tiêu bài tập:
+
+- Làm quen với thư viện boto3 để tương tác với dịch vụ Amazon S3.
+- Thao tác tải file .gz từ một bucket công khai (commoncrawl).
+- Đọc dữ liệu .gz trực tiếp từ bộ nhớ thay vì ghi ra đĩa.
+- Trích xuất và xử lý file WET được chỉ định trong dòng đầu tiên.
+- Extra Credit: Tối ưu bộ nhớ bằng cách stream dữ liệu, không tải toàn bộ vào RAM hoặc lưu file tạm.
+
+#### 2. Phân tích yêu cầu:
+- Bước 1: Khởi tạo môi trường làm việc
+- Bước 2: Kết nối với AWS S3 bằng boto3
+- Bước 3: Tải và đọc file wet.paths.gz trực tiếp từ bộ nhớ
+- Bước 4: Tải file WET tương ứng và stream nội dung
+
+#### 3. Kết luận:
+
+- Đọc thành công dòng đầu tiên từ file wet.paths.gz.
+- Tải file .wet.gz tương ứng từ commoncrawl.
+- In ra từng dòng nội dung từ file .wet.gz một cách hiệu quả, không tải toàn bộ vào bộ nhớ, đảm bảo đúng yêu cầu của phần Extra Credit.
 
 ![z6570760492704_1c4cdafaa1432e82d08fa8a9754dfd96](https://github.com/user-attachments/assets/fb71263d-400c-46bd-a085-3e96f72aae7b)
 
