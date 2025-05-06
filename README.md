@@ -1,7 +1,22 @@
 # Bài tập kĩ thuật dữ liệu
-## Thông tin cá nhân
-1. Nguyễn Trường Phát
-2. Lê Trần Quang Nhân
+## Thông tin nhóm
+1. Nguyễn Trường Phát 23697331 
+2. Lê Trần Quang Nhân 23698431
+   
+## Lab 8
+# Case 1: Xây dựng Pipeline tự động cào và trực quan hóa dữ liệu
+- Phương pháp: Sử dụng mô hình ETL (Extract, Transform, Load) để thực hiện và sử dụng AirFlow để tự động hóa pipeline
+- Các bước:
+  B1: Thu thập dữ liệu (file csv, mySQL)
+  B2: Viết script Python để xử lí trích xuất dữ liệu
+  B3: Tải (Load) dữ liệu lên phần mềm PostgreSQL + Pandas
+  B4: Trực quan hóa trên PowerBI
+- Tổng kết:
+    Dự án là một mô hình mô phỏng hệ thống ETL hoàn chỉnh trong lĩnh vực thương mại điện tử. Quy trình gồm các công đoạn từ trích xuất dữ liệu từ tệp hoặc cơ sở dữ liệu, xử lý và chuyển đổi dữ liệu, cho đến khâu nạp dữ liệu vào kho dữ liệu (Data Warehouse) sử dụng PostgreSQL hoặc MySQL. Apache Airflow được triển khai để tự động hóa và giám sát toàn bộ quá trình. Ngoài ra, hệ thống hỗ trợ tích hợp các plugin mở rộng, cho phép kết nối linh hoạt với nhiều loại cơ sở dữ liệu phổ biến khác.
+
+# Case 2: Xây dựng Pipeline tự động cào dữ liệu và huấn luyện mô hình 
+- Mục tiêu: Xây dựng và chạy thử được các DAGs cơ bản đến nâng cao.
+- Công cụ: Sử dụng AirFlow để chạy Pipeline với cài đặt thời gian.
 
 ## Data Engineering Practice Problems
 
