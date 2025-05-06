@@ -102,31 +102,75 @@ Xây dựng một chương trình Python thu thập dữ liệu web, xây dựng
 ![z6570760492704_1c4cdafaa1432e82d08fa8a9754dfd96](https://github.com/user-attachments/assets/fb71263d-400c-46bd-a085-3e96f72aae7b)
 
 
-#### Exercise 4 - Convert JSON to CSV + Ragged Directories.
-The [fourth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-4) 
-focuses more file types `json` and `csv`, and working with them in `Python`.
-You will have to traverse a ragged directory structure, finding any `json` files
-and converting them to `csv`.
+### Exercise 4 - Convert JSON to CSV + Ragged Directories.
+#### 1. Mục tiêu bài tập:
+- Bài tập yêu cầu viết một chương trình Python chạy trong môi trường Docker để thực hiện:
+- Duyệt thư mục data/ và các thư mục con để tìm tất cả các file .json
+- Đọc nội dung các file .json, "làm phẳng" (flatten) cấu trúc dữ liệu lồng nhau
+- Ghi dữ liệu ra file .csv tương ứng (một file .csv cho mỗi file .json)
+
+#### 2. Phân tích yêu cầu:
+- Bước 1: Viết chương trình Python main.py
+- Bước 2: Viết file docker-compose.yml
+- Bước 3: Viết Dockerfile
+- Bước 4: Build và chạy Docker
+
+#### 3. Kết luận:
+
+- Các file .csv được tạo ra tương ứng với từng file .json trong thư mục data
+- Mỗi dòng trong file .csv đại diện cho một object JSON đã được làm phẳng
+- Chương trình hoạt động đúng trên các file .json có cấu trúc lồng nhau
+
 
 ![Screenshot 2025-05-05 160229](https://github.com/user-attachments/assets/4801a5a9-efdb-495e-8974-867e0eaff7cb)
 
 
-#### Exercise 5 - Data Modeling for Postgres + Python.
-The [fifth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-5) 
-is going to be a little different than the rest. In this problem you will be given a number of
-`csv` files. You must create a data model / schema to hold these data sets, including indexes,
-then create all the tables inside `Postgres` by connecting to the database with `Python`.
+### Exercise 5 - Data Modeling for Postgres + Python.
+#### 1. Mục tiêu bài tập:
+- Hiểu cách thiết kế mô hình dữ liệu quan hệ từ dữ liệu CSV.
+- Viết câu lệnh CREATE TABLE phù hợp với cấu trúc dữ liệu.
+- Thiết lập các khóa chính, khóa ngoại và chỉ mục để tối ưu truy vấn.
+- Sử dụng thư viện psycopg2 để kết nối và tương tác với PostgreSQL bằng Python.
+- Tự động hóa việc nạp dữ liệu từ file CSV vào cơ sở dữ liệu thông qua Docker.
+
+#### 2. Phân tích yêu cầu:
+- Bước 1: Khám phá dữ liệu đầu vào (CSV)
+- Bước 2: Thiết kế mô hình dữ liệu (schema.sql)
+- Bước 3: Viết chương trình Python xử lý
+- Bước 4: Thiết lập Docker và chạy chương trình
+
+#### 3. Kết luận:
+- Dữ liệu đã được nạp thành công.
+- Các bảng liên kết đúng thông qua khóa ngoại.
+- Việc sử dụng chỉ mục giúp tối ưu hóa các truy vấn sau này.
 
 ![z6570760884268_d4168892f1e0a18aaf2bcf81eded90c2](https://github.com/user-attachments/assets/4177047d-d9f3-4e05-a962-bc7a71d8925f)
 
 
-### Intermediate Exercises
+### Exercise 6 - Ingestion and Aggregation with PySpark.
+#### 1. Mục tiêu bài tập:
+- Làm quen với quy trình xử lý dữ liệu lớn (Big Data) bằng PySpark.
+- Làm việc với dữ liệu nén .zip chứa file .csv.
+- Viết các truy vấn Spark để phân tích dữ liệu.
+- Xuất kết quả thành các file .csv báo cáo.
 
-#### Exercise 6 - Ingestion and Aggregation with PySpark.
-The [sixth exercise](https://github.com/danielbeach/data-engineering-practice/tree/main/Exercises/Exercise-6) 
-Is going to step it up a little and move onto more popular tools. In this exercise we are going
-to load some files using `PySpark` and then be asked to do some basic aggregation.
-Best of luck!
+#### 2. Phân tích yêu cầu:
+- Bước 1: Xây dựng môi trường với Docker
+  + Build Docker image
+  + Chạy container và thực thi Spark job
+- Bước 2: Mã nguồn xử lý dữ liệu – main.py
+  + Đọc file zip và giải nén
+  + Đọc dữ liệu CSV bằng PySpark
+  + Xử lý và tạo báo cáo
+- Bước 3: Xuất báo cáo
+
+#### 3. Kết luận:
+
+- Học được cách sử dụng PySpark để xử lý dữ liệu lớn.
+- Thực hành tổ chức quy trình xử lý dữ liệu trong Docker.
+- Thành thạo việc kết nối nhiều công cụ: Spark, Python, Docker, và Pandas/PySpark SQL.
+- Biết cách debug lỗi môi trường (thư mục, biến môi trường, cấu hình Docker).
+
 
 ![Screenshot 2025-05-05 160300](https://github.com/user-attachments/assets/00a57f80-6f8e-4913-8ebc-c21ed5e1a27b)
 
