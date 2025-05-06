@@ -7,6 +7,7 @@
 # Case 1: Xây dựng Pipeline tự động cào và trực quan hóa dữ liệu
 - Phương pháp: Sử dụng mô hình ETL (Extract, Transform, Load) để thực hiện và sử dụng AirFlow để tự động hóa pipeline
 - Các bước:
+  
   B1: Thu thập dữ liệu (file csv, mySQL)
   
   B2: Viết script Python để xử lí trích xuất dữ liệu
@@ -22,18 +23,9 @@
 - Mục tiêu: Xây dựng và chạy thử được các DAGs cơ bản đến nâng cao.
 - Công cụ: Sử dụng AirFlow để chạy Pipeline với cài đặt thời gian.
 
-## Data Engineering Practice Problems
 
-One of the main obstacles of Data Engineering is the large
-and varied technical skills that can be required on a 
-day-to-day basis.
-
-*** Note - If you email a link to your GitHub repo with all the completed
-exercises, I will send you back a free copy of my ebook Introduction to Data Engineering. ***
-
-This aim of this repository is to help you develop and 
-learn those skills. Generally, here are the high level
-topics that these practice problems will cover.
+## Lab 9
+# Mục tiêu:
 
 - Python data processing.
 - csv, flat-file, parquet, json, etc.
